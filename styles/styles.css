@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-    display: flex; /* Usando Flexbox para alinear el contenido del nav */
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -25,10 +25,8 @@ nav {
 }
 
 nav ul {
-    display: flex; /* Usando Flexbox para alinear los elementos de la lista horizontalmente */
+    display: flex; 
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -42,7 +40,7 @@ nav ul li a {
 }
 
 .about-us {
-    display: flex; /* Usando Flexbox para alinear el contenido de About Us */
+    display: flex; 
     justify-content: space-between; 
     align-items: center; 
     padding: 50px;
@@ -50,7 +48,7 @@ nav ul li a {
 }
 
 .left-container {
-    display: flex; /* Usando Flexbox para organizar el contenido en columna */
+    display: flex; 
     flex-direction: column; 
     max-width: 30%; 
 }
@@ -58,7 +56,6 @@ nav ul li a {
 h1 {
     font-size: 3rem; 
     margin-bottom: 20px; 
-    font-family: 'Arial', sans-serif;
 }
 
 p {
@@ -66,7 +63,6 @@ p {
     line-height: 1.6;
     color: #333; 
     margin-bottom: 30px; 
-    font-family: 'Arial', sans-serif;
 }
 
 span {
@@ -88,7 +84,7 @@ button:hover {
 }
 
 .gallery {
-    display: flex; /* Usando Flexbox para crear un contenedor de galería responsivo */
+    display: flex; 
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     gap: 20px;
@@ -96,7 +92,7 @@ button:hover {
 }
 
 .gallery-item {
-    flex: 1 1 300px; /* Usando Flexbox para definir el tamaño y el espacio de los items de la galería */
+    flex: 1 1 300px; 
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -111,7 +107,7 @@ button:hover {
 }
 
 .gallery-item div {
-    display: flex; /* Usando Flexbox para alinear el contenido dentro del item de la galería */
+    display: flex; 
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
@@ -123,14 +119,8 @@ figcaption {
     margin-bottom: 5px;
 }
 
-p {
-    font-size: 0.8rem;
-    color: #666;
-    line-height: 1.4;
-}
-
 #brands {
-    display: flex; /* Usando Flexbox para organizar los elementos de marcas */
+    display: flex; 
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     padding: 20px;
@@ -142,12 +132,11 @@ h2 {
     font-size: 2rem;
     margin: 20px 0; 
     background-color: white; 
-    z-index: 10;
     padding: 10px 0;
 }
 
 .brand-item {
-    display: flex; /* Usando Flexbox para organizar el contenido de cada item de marca */
+    display: flex; 
     flex-direction: column;
     align-items: center; 
     width: 300px; 
@@ -158,10 +147,6 @@ svg, .brand-item img {
     max-width: 30%; 
     height: auto;
     margin-bottom: 10px;
-}
-
-.brand-item img {
-    margin-bottom: 75px;
 }
 
 .brand-item h3 {
@@ -199,7 +184,7 @@ a:hover {
 }
 
 #news div {
-    display: flex; /* Usando Flexbox para alinear los elementos de noticias */
+    display: flex; 
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -215,7 +200,7 @@ a:hover {
 }
 
 #news div > div {
-    flex: 1; /* Usando Flexbox para que el div interno ocupe el espacio restante */
+    flex: 1; 
 }
 
 #news h3 {
@@ -227,13 +212,12 @@ a:hover {
 #news p {
     font-size: 0.9rem;
     color: #666;
-    margin: 0;
 }
 
 #news a {
     font-size: 1rem;
     text-decoration: none;
-    align-self: flex-start; /* Usando Flexbox para alinear el enlace al inicio */
+    align-self: flex-start; 
 }
 
 #news a:hover {
@@ -256,7 +240,7 @@ footer ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
-    display: flex; /* Usando Flexbox para alinear los elementos del footer */
+    display: flex; 
     justify-content: center;
 }
 
@@ -266,7 +250,6 @@ footer ul li {
 
 footer ul li a {
     color: var(--main-white);
-    text-decoration: none;
     font-weight: 600;
 }
 
